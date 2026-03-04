@@ -2,100 +2,135 @@
 <html>
 <head>
    <title>My Food Recipe</title>
-<!-- internal css -->
+
+<!-- INTERNAL CSS -->
    <style>
-      body { background-color: lightblue;}
-        .container {
-           width:300px;
-           padding:10px;
-           margin:20px auto;
-           border:2px solid black
-           text-align:center;
-        }
+      body { 
+         background-color: lightblue;
+         text-align: center;
+      }
+
+      .container {
+         width:300px;
+         padding:10px;
+         margin:20px auto;
+         border:2px solid black;
+         text-align:center;
+      }
+
       img {
          width:100%;
       }
-      </style>
-   <!--external Css -->
+
+      blockquote {
+         margin: 30px auto;
+         padding: 20px;
+         width: 60%;
+         background-color: #f8f8f8;
+         border-left: 6px solid gold;
+         font-style: italic;
+         text-align: center;
+         font-size: 20px;
+      }
+
+      /* Paragraph 2 - Internal */
+      .p2 {
+         color: orange;
+         font-weight: bold;
+      }
+
+      /* Highlight 2 - Internal */
+      .highlight2 {
+         color: green;
+      }
+
+      /* Building 2 - Internal */
+      .building2 {
+         color: darkorange;
+      }
+
+   </style>
+
+   <!-- EXTERNAL CSS -->
    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-<!--inline CSS-->
-   <h1 style="text-aliggn:center; color:darkblue;">
+
+<!-- INLINE CSS -->
+   <h1 style="text-align:center; color:darkblue;">
        "My Food Recipe"
    </h1>
 
 <h2>Welcome to My Food Recipe Website</h2>
-      <p>
-      In this site you will find delicious meals to cook at home. These recipe are easy to follow and perfect for beginner who want to improve their cooking skills.
-    </p>
 
+<p>
+In this site you will find delicious meals to cook at home. These recipes are easy to follow and perfect for beginners who want to improve their cooking skills.
+</p>
 
-     <h3>Delicious Food Images</h3>
-   
-      
- .sushi {
-    position: relative;
-    width: 200px;
-    height: 120px;
-  }
+<h3>Delicious Food Images</h3>
 
-   
+<!-- 5 IMAGE CONTAINERS -->
 <div class="container">   
-<img
-  src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c"
-  alt="Fresh salad bowl"
-  width="400">
+<img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c" alt="Fresh salad bowl">
 </div>
-   
- <div class="container">  
-  <img
-  src="https://images.unsplash.com/photo-1504674900247-0877df9cc836"
-  alt="Pasta dish"
-  width=400"> 
- </div>
 
-   <div class="container">
-   <img
-  src="https://images.unsplash.com/photo-1490645935967-10de6ba17061"
-  alt="Avocado toast"
-  width="400">
-   </div>
+<div class="container">  
+<img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836" alt="Pasta dish">
+</div>
 
-   <div class="container">
-<img
-  src="https://images.unsplash.com/photo-1499028344343-cd173ffc68a9"
-  alt="Burger with fries"
-  width="400">
-   </div>
-
-   <div class="container">
-  <img
-  src="https://images.unsplash.com/photo-1504754524776-8f4f37790ca0"
-  alt="Stack of pancakes with syrup"
-  width="400"> 
-   </div>
-   
 <div class="container">
-      src="<iframe width="560" height="315" src="https://www.youtube.com/embed/sGZ8wRh3OXo?si=jO4t6MaTD_rxeC-j" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-  frameborder="0"
-   allowfullscreen>
-</frame>
+<img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061" alt="Avocado toast">
 </div>
-<h4>how to make chicken</h4>
-   src="<iframe width="560" height="315" src="https://www.youtube.com/embed/yde2metFGpo?si=XOrqHSUhVvGKozrh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+<div class="container">
+<img src="https://images.unsplash.com/photo-1499028344343-cd173ffc68a9" alt="Burger with fries">
+</div>
 
+<div class="container">
+<img src="https://images.unsplash.com/photo-1504754524776-8f4f37790ca0" alt="Pancakes">
+</div>
 
-<h5>How to make omlet</h5>
-src="<iframe width="560" height="315" src="https://www.youtube.com/embed/j_RE8pOK8DE?si=K-AtG7hob0PpzYyW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<!-- YOUTUBE VIDEO -->
+<div class="container">
+<iframe width="100%" height="200"
+src="https://www.youtube.com/embed/sGZ8wRh3OXo"
+frameborder="0"
+allowfullscreen>
+</iframe>
+</div>
+
+<h4>How to make chicken</h4>
+
+<div class="container">
+<iframe width="100%" height="200"
+src="https://www.youtube.com/embed/yde2metFGpo"
+frameborder="0"
+allowfullscreen>
+</iframe>
+</div>
+
+<h5>How to make omelet</h5>
+
+<div class="container">
+<iframe width="100%" height="200"
+src="https://www.youtube.com/embed/j_RE8pOK8DE"
+frameborder="0"
+allowfullscreen>
+</iframe>
+</div>
 
 <h6>How to make sushi</h6>
-   src="<iframe width="560" height="315" src="https://www.youtube.com/embed/joweUxpHaqc?si=bMXu7bszMZ0GgbKT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+<div class="container">
+<iframe width="100%" height="200"
+src="https://www.youtube.com/embed/joweUxpHaqc"
+frameborder="0"
+allowfullscreen>
+</iframe>
+</div>
 <h6>Ingredient of cinnamon</h6>
- <table border="1" style="width:100%; border-collapse: collapse; font-family: sans-serif; margin-bottom: 20px;">
+ <table style="width:100%; border-collapse: collapse; font-family: sans-serif; margin-bottom: 20px;">
   <thead style="background-color: #6f4e37; color: white;">
     <tr>
       <th style="padding: 10px;">Variety</th>
@@ -130,7 +165,7 @@ Use code with caution.
 2. Nutritional Facts (Per Teaspoon)
 Use this table to provide health data for your readers. 
 html
-<table border="1" style="width:300px; border-collapse: collapse; font-family: sans-serif;">
+<table style="width:300px; border-collapse: collapse; font-family: sans-serif;">
   <caption style="font-weight: bold; margin-bottom: 5px;">Nutrients in 1 tsp (2.6g) Ground Cinnamon</caption>
   <tbody>
     <tr>
@@ -156,7 +191,7 @@ Use code with caution.
 3. Chemical Composition & Benefits
 This table explains the "science" of why cinnamon tastes the way it does. 
 html
-<table border="1" style="width:100%; border-collapse: collapse; font-family: sans-serif; margin-top: 20px;">
+<table style="width:100%; border-collapse: collapse; font-family: sans-serif; margin-top: 20px;">
   <thead>
     <tr style="background-color: #a0522d; color: white;">
       <th style="padding: 10px;">Compound</th>
@@ -184,7 +219,7 @@ html
 </table>  
 
     <h7>Ingredient of chicken</h7>
-    <table border="1" style="width:100%; border-collapse: collapse; font-family: Arial, sans-serif; margin-bottom: 20px;">
+    <table style="width:100%; border-collapse: collapse; font-family: Arial, sans-serif; margin-bottom: 20px;">
   <thead>
     <tr style="background-color: #e67e22; color: white;">
       <th style="padding: 12px;">Step</th>
@@ -213,125 +248,148 @@ html
 
 
 
+<!-- ================= PARAGRAPH TASK ================= -->
 
+    <h2>Paragraph Section</h2>
 
-    <h8>Task 1: Paragraphs</h8>
-
-    
-    <h9>Food Recipes</h9>
-
-    <!-- Line 1: Bold -->
-    <p><b>Cinnamon Chicken is a sweet and spicy dish loved by many.</b></p>
-
-    <!-- Line 2: Italics -->
-    <p><i>Sushi is a traditional Japanese food made with rice and fillings.</i></p>
-
-    <!-- Line 3: Underlined -->
-    <p><u>An omelet is a quick and healthy egg-based meal.</u></p>
-
-    <!-- Line 4: Superscript -->
-    <p>This recipe was updated on 15<sup>th</sup> January 2026.</p>
-
-    <!-- Line 5: Subscript -->
-    <p>Use H<sub>2</sub>O when mixing spices and cook at temperature &gt; 160°C.</p>
-
-    <!-- Line 6: Strikethrough -->
-    <p><strike>Do not use stale chicken or old eggs.</strike></p>
-
-    <!-- Line 7: Highlight -->
-    <p><mark>Fresh ingredients improve the taste of every recipe.</mark></p>
-
-    <!-- Line 8: Quotation -->
-    <p><q>Good food brings people together.</q></p>
-
-    
-    <blockquote>
-    "Cooking is not just about ingredients and measurements; it’s about love, creativity, and the joy of sharing a delicious meal with others." 
-    </blockquote>
-<style>
-blockquote {
-    margin: 30px auto;
-    padding: 20px;
-    width: 60%;
-    background-color: #f8f8f8;
-    border-left: 6px solid gold;
-    font-style: italic;
-    text-align: center;
-    font-size: 20px;
-}
-</style>
-    
-    
-
-    <hr>
-
-    <h10>Recipe Steps</h10>
-
-    <!-- Line 11: Line breaks -->
-    <p>
-        Cinnamon Chicken – Marinate chicken<br>
-        Sushi – Prepare rice<br>
-        Omelet – Beat eggs<br>
-        Cook and serve hot
+    <!-- Paragraph1 - INLINE -->
+    <p style="color:blue; font-style:italic;">
+        Paragraph1: Cooking at home is healthy and helps save money.
     </p>
 
-    <!-- Line 12: 3 lines with HR -->
-    <p>Cinnamon Chicken Preparation</p>
+    <!-- Paragraph2 - INTERNAL -->
+    <p class="p2">
+        Paragraph2: This recipe is easy to follow for beginners.
+    </p>
+
+    <!-- Paragraph3 - EXTERNAL -->
+    <p class="p3">
+        Paragraph3: Good food brings families together.
+    </p>
+
+    <!-- ================= HIGHLIGHT TASK ================= -->
+
+    <h1 style="color:red;">
+        Highlight1: Fresh Ingredients
+    </h1>
+
+    <h1 class="highlight2">
+        Highlight2: Healthy Cooking
+    </h1>
+
+    <h1 class="highlight3">
+        Highlight3: Balanced Meals
+    </h1>
+
+    <!-- ================= BUILDING TASK ================= -->
+
+    <h3 style="color:blue;">
+        Building1: Kitchen Preparation
+    </h3>
+
+    <h3 class="building2">
+        Building2: Cooking Process
+    </h3>
+
+    <h3 class="building3">
+        Building3: Food Presentation
+    </h3>
+
     <hr>
-    <p>Sushi Preparation</p>
-    <hr>
-    <p>Omelet Preparation</p>
+<h9>Food Recipes</h9>
 
-    <!-- Line 13: Preformatted text -->
-    <pre>
-Cinnamon Chicken Ingredients:
-Chicken
-Cinnamon
-Honey
-    </pre>
+<p><b>Cinnamon Chicken is a sweet and spicy dish loved by many.</b></p>
 
-   Cinnamon Chicken – Marinate chicken <br>
-Sushi – Prepare rice <br>
-Omelet – Beat eggs <br>
-Cook and serve hot
-   
-    <!-- Line 14: Lists -->
-    <h11>Unordered List – Ingredients</h11>
-    <ul>
-        <li>Chicken</li>
-        <li>Cinnamon powder</li>
-        <li>Rice</li>
-        <li>Eggs</li>
-        <li>Vegetables</li>
-    </ul>
+<p><i>Sushi is a traditional Japanese food made with rice and fillings.</i></p>
 
-    <h11>Ordered List – Cooking Steps</h11>
-    <ol>
-        <li>Prepare ingredients</li>
-        <li>Marinate chicken</li>
-        <li>Cook rice</li>
-        <li>Fry omelet</li>
-        <li>Serve food</li>
-    </ol>
+<p><u>An omelet is a quick and healthy egg-based meal.</u></p>
 
-    <!-- Line 15: Nested list -->
-    <ul>
-        <li>Cinnamon Chicken
-            <ul>
-                <li>Marination</li>
-                <li>Cooking</li>
-            </ul>
-        </li>
-        <li>Sushi</li>
-        <li>Omelet</li>
-        <li>Plating</li>
-        <li>Serving</li>
-        <li>Enjoy</li>
-    </ul>
+<p>This recipe was updated on 15<sup>th</sup> January 2026.</p>
 
-    <!-- Line 17: Table -->
+<p>Use H<sub>2</sub>O when mixing spices and cook at temperature &gt; 160°C.</p>
+
+<p><strike>Do not use stale chicken or old eggs.</strike></p>
+
+<p><mark>Fresh ingredients improve the taste of every recipe.</mark></p>
+
+<p><q>Good food brings people together.</q></p>
+
+<blockquote>
+Cooking is not just about ingredients and measurements; it’s about love, creativity, and joy.
+</blockquote>
+
+<hr>
+
+  <h3>Recipe Steps</h3>
+
+<div style="width:80%; margin:20px auto; text-align:left;">
+
+<h4>Cinnamon Chicken Preparation</h4>
+<p>
+Step 1: Marinate the chicken with cinnamon and spices.<br>
+Step 2: Let it rest for 10 minutes.<br>
+Step 3: Cook until fully done.
+</p>
+
+<hr>
+
+<h4>Sushi Preparation</h4>
+<p>
+Step 1: Prepare and season the rice.<br>
+Step 2: Add fillings like vegetables or fish.<br>
+Step 3: Roll and slice carefully.
+</p>
+
+<hr>
+
+<h4>Omelet Preparation</h4>
+<p>
+Step 1: Beat the eggs in a bowl.<br>
+Step 2: Heat the pan and add oil.<br>
+Step 3: Pour eggs and cook evenly.
+</p>
+
+</div>
+   <!-- Line 14: Lists -->
+   <section class="list-section">
+
+<h3>Unordered List – Ingredients</h3>
+<ul>
+    <li>Chicken</li>
+    <li>Cinnamon powder</li>
+    <li>Rice</li>
+    <li>Eggs</li>
+    <li>Vegetables</li>
+</ul>
+
+<h3>Ordered List – Cooking Steps</h3>
+<ol>
+    <li>Prepare ingredients</li>
+    <li>Marinate chicken</li>
+    <li>Cook rice</li>
+    <li>Fry omelet</li>
+    <li>Serve food</li>
+</ol>
+
+<h3>Cinnamon Chicken</h3>
+<ul>
+    <li>Marination
+        <ul>
+            <li>Mix spices</li>
+        </ul>
+    </li>
+    <li>Cooking</li>
+    <li>Sushi</li>
+    <li>Omelet</li>
+    <li>Plating</li>
+    <li>Serving</li>
+    <li>Enjoy</li>
+</ul>
+
+</section>
+   <!-- Line 17: Table -->
     <h3>Nutrition Table</h3>
-    <table border="1">
+    <table >
         <tr>
             <th>C1</th><th>C2</th><th>C3</th><th>C4</th><th>C5</th>
             <th>C6</th><th>C7</th><th>C8</th><th>C9</th><th>C10</th>
@@ -354,123 +412,9 @@ Cook and serve hot
         </tr>
     </table>
 
-</body>
-</html>
 <footer>
-        <p>Recipe Collection © 2026</p>
+    <p>Recipe Collection © 2026</p>
 </footer>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</body>
+</html>
