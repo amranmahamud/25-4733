@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Delicious Pancake Recipe</title>
+    <!-- Link to external CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1 id="mainTitle">Delicious Pancakes</h1>
+
+<h2 class="heading">About Pancakes</h2>
+<p class="paragraph">
+You will need flour, milk, eggs, sugar, baking powder, butter, and a pinch of salt to make pancakes.
+</p>
+
+<h3 class="heading">Preparing the Batter</h3>
+<p class="paragraph">
+Mix the dry ingredients first. Then add eggs and milk and stir until the batter becomes smooth with no lumps.
+</p>
+
+<h3 class="heading">Cooking the Pancakes</h3>
+<p class="paragraph">
+Heat a pan on medium heat and add a little butter. Pour some batter into the pan and cook until bubbles form, then flip to cook the other side.
+</p>
+
+<h4 class="heading">Serving</h4>
+<p class="paragraph">
+Serve the pancakes warm with syrup, honey, fruits, or butter. They taste best fresh and can be enjoyed with family or friends.
+</p>
+
+<h4 class="heading">Conclusion</h4>
+<p class="paragraph">
+This pancake recipe is simple, delicious, and perfect for anyone who wants a tasty breakfast. Enjoy making and sharing them!
+</p>
+
+</body>
+</html>
+
