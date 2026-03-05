@@ -1,0 +1,27 @@
+/* Body styling */
+body {
+    background-color: #FFF8DC; /* light cream */
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* H1 styling using ID */
+#mainTitle {
+    color: #D2691E; /* chocolate color */
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+/* H2-H4 styling using class */
+.heading {
+    color: #2E8B57; /* sea green */
+    margin-top: 15px;
+}
+
+/* Paragraph styling using class */
+.paragraph {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333333;
+    margin: 10px 0 20px 0;
+}
