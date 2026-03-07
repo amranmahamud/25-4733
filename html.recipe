@@ -1,40 +1,60 @@
+
+ASSIGNMENT:
+Use classes and IDs to style
+H1 to h4 
+6 paragraphs
+Using external CSS
+Hawa Nikona swali about this 
+I should make two separate files or one
+so ni a different work ama ni continuation
+I will use this when I finish class ya leo
+Just write everything here I will let you know if imework
+ASSIGNMENT:
+Use classes and IDs to style
+H1 to h4 
+6 paragraphs
+Using external CSS
+Hawa Nikona swali about this 
+I should make two separate files or one
+the part si get ni..unaendelea na hile ya paragraphs ama ni a new assignment like separate?
+Teacher said separate
+ASSIGNMENT:
+Use classes and IDs to style
+H1 to h4 
+6 paragraphs
+Using external CSS
+Hawa Nikona swali about this 
+I should make two separate files or one
+lemme try doing it by itself idk if itawork tho
+Okk
+ASSIGNMENT:
+Use classes and IDs to style
+H1 to h4 
+6 paragraphs
+Using external CSS
+Hawa Nikona swali about this 
+I should make two separate files or one
+uta create 2 files like the previous one cz ni external
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Delicious Pancake Recipe</title>
-    <!-- Link to external CSS -->
+    <title>CSS Assignment</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<h1 id="mainTitle">Delicious Pancakes</h1>
+<h1 id="mainTitle">Welcome to My Website</h1>
+<h2 class="subtitle">About Cooking</h2>
+<h3 class="section">Healthy Recipes</h3>
+<h4 class="smallTitle">Quick Meals</h4>
 
-<h2 class="heading">About Pancakes</h2>
-<p class="paragraph">
-You will need flour, milk, eggs, sugar, baking powder, butter, and a pinch of salt to make pancakes.
-</p>
-
-<h3 class="heading">Preparing the Batter</h3>
-<p class="paragraph">
-Mix the dry ingredients first. Then add eggs and milk and stir until the batter becomes smooth with no lumps.
-</p>
-
-<h3 class="heading">Cooking the Pancakes</h3>
-<p class="paragraph">
-Heat a pan on medium heat and add a little butter. Pour some batter into the pan and cook until bubbles form, then flip to cook the other side.
-</p>
-
-<h4 class="heading">Serving</h4>
-<p class="paragraph">
-Serve the pancakes warm with syrup, honey, fruits, or butter. They taste best fresh and can be enjoyed with family or friends.
-</p>
-
-<h4 class="heading">Conclusion</h4>
-<p class="paragraph">
-This pancake recipe is simple, delicious, and perfect for anyone who wants a tasty breakfast. Enjoy making and sharing them!
-</p>
+<p class="p1">Cooking at home helps you eat healthy.</p>
+<p class="p2">Fresh ingredients make food taste better.</p>
+<p class="p3">Learning recipes improves your cooking skills.</p>
+<p id="p4">Cooking can also be a fun hobby.</p>
+<p id="p5">Families enjoy meals together.</p>
+<p id="p6">Practice makes perfect in the kitchen.</p>
 
 </body>
 </html>
-
