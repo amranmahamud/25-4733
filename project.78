@@ -1,0 +1,39 @@
+#mainTitle{
+    color: darkblue;
+    text-align: center;
+}
+
+.subtitle{
+    color: green;
+}
+
+.section{
+    color: orange;
+}
+
+.smallTitle{
+    color: purple;
+}
+
+.p1{
+    color: red;
+}
+
+.p2{
+    color: blue;
+}
+
+.p3{
+    color: brown;
+}
+
+#p4{
+    font-style: italic;
+}
+
+#p5{
+    text-decoration: underline;
+}
+#p6{
+    font-weight: bold;
+}
