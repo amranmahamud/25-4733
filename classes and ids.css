@@ -1,1 +1,45 @@
+body{
+    font-family: Arial;
+    background-color: lightblue;
+    text-align: center;
+}
 
+.title{
+    color: darkblue;
+}
+
+.subtitle{
+    color: green;
+}
+
+#section1{
+    color: orange;
+}
+
+#section2{
+    color: purple;
+}
+
+.p1{
+    color: black;
+}
+
+.p2{
+    color: darkred;
+}
+
+.p3{
+    color: brown;
+}
+
+.p4{
+    color: teal;
+}
+
+.p5{
+    color: navy;
+}
+
+.p6{
+    color: darkgreen;
+}
