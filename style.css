@@ -1,0 +1,106 @@
+.p3 {
+   color: purple;
+   text-decoration: underline;
+}
+
+.highlight2 {
+   color: green;
+}
+
+.highlight3 {
+   color: brown;
+}
+
+.building2 {
+   color: darkorange;
+}
+
+.building3 {
+   color: purple;
+}
+/* Make all tables clean and with borders */
+table {
+   width: 90%;
+   margin: 20px auto;
+   border-collapse: collapse;
+   border: 2px solid red;
+}
+
+th, td {
+   border: 1px solid red;
+   padding: 8px;
+}
+/* Center all sections properly */
+section {
+   width: 80%;
+   margin: 20px auto;
+   text-align: center;
+}
+
+ul, ol {
+   text-align: left;
+   display: inline-block;
+}
+.list-section {
+   width: 80%;
+   margin: 20px auto;
+   text-align: center;
+}
+
+.list-section ul,
+.list-section ol {
+   text-align: left;
+   display: inline-block;
+}
+
+/* Add spacing between items */
+li {
+   margin-bottom: 5px;
+}
+.recipe-steps {
+    width: 70%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.recipe-steps p {
+    text-align: center;
+}
+/* NAVBAR (same for all pages) */
+nav {
+    background-color: darkblue;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* FOOTER */
+footer {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+/* PAGE SPACING */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* CENTER MAIN CONTENT */
+.content {
+    width: 80%;
+    margin: 20px auto;
+}
