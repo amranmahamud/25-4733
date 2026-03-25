@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>My Food Recipe</title>
+
+<!-- INTERNAL CSS -->
+   <style>
+       body { 
+         background-color: lightblue;
+         text-align: center;
+         font-family: Arial, sans-serif;
+      }
+
+          img, iframe {
+         width: 100%;
+         height: 200px;
+      }
+
+      /* RECIPE STEPS CENTER */
+      .recipe-steps {
+         width: 70%;
+         margin: 20px auto;
+         text-align: center;
+      }
+
+      blockquote {
+         margin: 30px auto;
+         padding: 20px;
+         width: 60%;
+         background-color: #f8f8f8;
+         border-left: 6px solid gold;
+         font-style: italic;
+         text-align: center;
+         font-size: 20px;
+      }
+      /* FLEX WRAPPER FOR IMAGES & VIDEOS */
+      .media-wrapper {
+         width: 90%;
+         margin: 20px auto;
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: center;
+         gap: 20px;
+      }
+
+
+  .container {
+         width: 250px;
+         padding: 10px;
+         border: 2px solid black;
+         background-color: white;
+      }
+/* NAVBAR */
+      nav {
+         background-color: darkblue;
+         padding: 10px;
+      }
+
+      nav a {
+         color: white;
+         margin: 10px;
+         text-decoration: none;
+         font-weight: bold;
+      }
+   </style>
+
+   <!-- EXTERNAL CSS -->
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <nav>
+ <a href="index.html">Home</a>
+ <a href="gallery.html">Gallery</a>
+ <a href="tables.html">Tables</a>
+ <a href="paragraph.html">Paragraph</a>
+ <a href="classes_and_ids.html">About</a>
+</nav>
+
+<!-- INLINE CSS -->
+   <h1 style="text-align:center; color:darkblue;">
+       Food images and videos
+   </h1>
+
+
+   <!-- ================= IMAGES ================= -->
+<h3>Delicious Food Images</h3>
+
+<div class="media-wrapper">
+
+   <div class="container">
+      <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c">
+   </div>
+
+   <div class="container">
+      <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836">
+   </div>
+
+   <div class="container">
+      <img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061">
+   </div>
+
+   <div class="container">
+      <img src="https://images.unsplash.com/photo-1499028344343-cd173ffc68a9">
+   </div>
+
+   <div class="container">
+      <img src="https://images.unsplash.com/photo-1504754524776-8f4f37790ca0">
+   </div>
+
+</div>
+
+<!-- ================= VIDEOS ================= -->
+<h3>Cooking Videos</h3>
+
+<div class="media-wrapper">
+
+   <div class="container">
+      <iframe src="https://www.youtube.com/embed/sGZ8wRh3OXo" allowfullscreen></iframe>
+   </div>
+
+   <div class="container">
+      <iframe src="https://www.youtube.com/embed/yde2metFGpo" allowfullscreen></iframe>
+   </div>
+
+   <div class="container">
+      <iframe src="https://www.youtube.com/embed/j_RE8pOK8DE" allowfullscreen></iframe>
+   </div>
+
+   <div class="container">
+      <iframe src="https://www.youtube.com/embed/joweUxpHaqc" allowfullscreen></iframe>
+   </div>
+
+</div>
+
+<footer>
+    <p>Recipe Collection © 2026</p>
+</footer>
+
+</body>
+</html>
