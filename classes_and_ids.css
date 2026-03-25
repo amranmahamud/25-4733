@@ -1,0 +1,83 @@
+body{
+    font-family: Arial;
+    background-color: lightblue;
+    text-align: center;
+}
+
+.title{
+    color: darkblue;
+}
+
+.subtitle{
+    color: green;
+}
+
+#section1{
+    color: orange;
+}
+
+#section2{
+    color: purple;
+}
+
+.p1{
+    color: black;
+}
+
+.p2{
+    color: darkred;
+}
+
+.p3{
+    color: brown;
+}
+
+.p4{
+    color: teal;
+}
+
+.p5{
+    color: navy;
+}
+
+.p6{
+    color: darkgreen;
+}
+/* NAVBAR (same for all pages) */
+nav {
+    background-color: darkblue;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* FOOTER */
+footer {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+/* PAGE SPACING */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* CENTER MAIN CONTENT */
+.content {
+    width: 80%;
+    margin: 20px auto;
+}
