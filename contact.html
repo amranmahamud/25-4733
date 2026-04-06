@@ -88,10 +88,10 @@
 
 <form onsubmit="showMessage(event)">
 
-<input type="text" placeholder="First Name" required><br><br>
-<input type="text" placeholder="Last Name" required><br><br>
-<input type="email" placeholder="Email" required><br><br>
-<input type="password" placeholder="Password" required><br><br>
+<input type="text" name="first_name" placeholder="First Name" required><br><br>
+<input type="text" name="last_name" placeholder="Last Name" required><br><br>
+<input type="email" name="email" placeholder="Email" required><br><br>
+<input type="password" name="password" placeholder="Password" required><br><br>
 
 <button type="submit">Submit</button>
 
@@ -99,18 +99,27 @@
 
 </div>
 
-</div>
+<script>
+function showMessage(event) {
+    event.preventDefault();
+
+    let first = document.querySelector('input[name="first_name"]').value;
+    let last = document.querySelector('input[name="last_name"]').value;
+    let email = document.querySelector('input[name="email"]').value;
+
+    alert(
+        "Registration Successful!\n\n" +
+        "First Name: " + first + "\n" +
+        "Last Name: " + last + "\n" +
+        "Email: " + email
+    );
+}
+</script>
 
 <footer>
 <p>Recipe Collection © 2026</p>
 </footer>
 
-<script>
-function showMessage(event) {
-    event.preventDefault();
-    alert("Form submitted successfully!");
-}
-</script>
 
 </body>
 </html>
