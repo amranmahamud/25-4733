@@ -71,14 +71,19 @@ nav {
     background-color: #1e3a8a; /* nicer navy */
     padding: 15px;
     text-align: center;
+    position: fixed;   /* THIS MAKES IT STAY */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
 nav a {
     color: white;
-    margin: 10px;
+    margin: 15px;
     text-decoration: none;
     font-weight: bold;
-}
+    font-size: 18px; /* bigger text */
 
 nav a:hover {
     text-decoration: underline;
@@ -154,14 +159,27 @@ button {
 
 .about-image img {
     width: 100%;
+    max-width: 400px; /* prevents it from being too big */
+    display: block;
+    margin: auto;
     border-radius: 10px;
+    transition: 0.3s;
 }
 
 .about-text {
     width: 50%;
     text-align: left;
 }
-
+/* HOVER BOUNCE */
+.about-image img:hover {
+    transform: scale(1.05);
+}
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
 /* GALLERY FIX */
 .media-wrapper {
     justify-content: center;
@@ -174,4 +192,17 @@ footer {
     padding: 15px;
     text-align: center;
     margin-top: 40px;
+}
+.container img,
+.container iframe {
+    transition: 0.3s;
+}
+
+/* HOVER EFFECT */
+.container:hover {
+    transform: scale(1.05); /* small zoom */
+    box-shadow: 0 0 20px rgba(30, 58, 138, 0.7); /* glow */
+}
+.container {
+    transition: all 0.3s ease;
 }
