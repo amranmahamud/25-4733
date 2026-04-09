@@ -23,7 +23,7 @@ table {
    width: 70%;
    margin: 20px auto;
    border-collapse: collapse;
-   border: 2px black;
+   border: 2px red;
 }
 
 th, td {
