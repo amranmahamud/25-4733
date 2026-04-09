@@ -23,11 +23,11 @@ table {
    width: 70%;
    margin: 20px auto;
    border-collapse: collapse;
-   border: 2px red;
+   border: 2px black;
 }
 
 th, td {
-   border: 1px solid red;
+   border: 1px solid black;
    padding: 8px;
 }
 /* Center all sections properly */
